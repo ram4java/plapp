@@ -26,4 +26,4 @@ eureka:
   client:
     register-with-eureka: true
 
-pl.app.cust.url: http://localhost:3333/plapp/customerdetails/getAllCustomers 
+plappUrl: http://localhost:3333/plapp/customerdetails/getAllCustomers 
