@@ -1,4 +1,29 @@
-pl:
-  app:
-    test:
-      url: http://localhost:3333/plapp/customerdetails/getAllCustomers
+spring:
+  datasource:
+    dbcp2:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/plapp
+    username: root
+    password: root123
+  jpa:
+    show-sql: true
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+  boot:
+    admin:
+      client:
+        url:
+        - http://localhost:1111
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+eureka:
+  client:
+    register-with-eureka: true
+
+plappUrl: http://localhost:3333/plapp/customerdetails/getAllCustomers 
