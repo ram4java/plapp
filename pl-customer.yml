@@ -1,0 +1,4 @@
+pl:
+  app:
+    test:
+      url: http://localhost:3333/plapp/customerdetails/getAllCustomers
