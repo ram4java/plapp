@@ -4,5 +4,5 @@ spring:
       prefix: /views/
       suffix: .jsp
   profiles:
-    active: uat
+    active: dev
 plappUrl: http://localhost:3333/plapp/customerdetails/getAllCustomers 
