@@ -1,4 +1,4 @@
-#dev settins
+#dev-settins
 spring:
   datasource:
     dbcp2:
