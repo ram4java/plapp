@@ -1,4 +1,4 @@
-#uat settings
+#uat-settings
 spring:
   datasource:
     dbcp2:
