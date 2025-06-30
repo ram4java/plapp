@@ -1,1 +1,2 @@
-plappUrl: http://devserver:3333/plapp/customerdetails/getAllCustomers 
+plappUrl: http://devserver:3333/plapp/customerdetails/getAllCustomers
+pl.rules.loans.eligibility.url: http://i-techno-guru:8082/pl-rules
